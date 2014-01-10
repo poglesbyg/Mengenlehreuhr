@@ -13,7 +13,7 @@ import java.util.*;
 
 /**
  *
- * @author poglesbyg
+ * @author poglesby
  */
 public class Mengenlehreuhr extends JApplet {
 
@@ -98,8 +98,8 @@ public class Mengenlehreuhr extends JApplet {
 //        m.time(13, 1, 1);
 //        m.time(24, 0, 0);
         
-        String input = JOptionPane.showInputDialog("Enter n:");
-        int n = Integer.parseInt(input);
+//        String input = JOptionPane.showInputDialog("Enter n:");
+//        int n = Integer.parseInt(input);
         
         JFrame f = new JFrame("Mengenlehreuhr");
         f.addWindowListener(new WindowAdapter() {
